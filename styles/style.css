@@ -275,8 +275,8 @@ a {
 .about-section {
   display: flex;
   flex-direction: column;
-  flex: 2; 
-  justify-content: space-between; 
+  flex: 2;
+  justify-content: space-between;
   margin-left: 12px;
   padding-top: 104px;
 }
