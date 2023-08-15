@@ -48,7 +48,7 @@ a {
 
 .contacts {
   display: flex;
-  flex: 1; 
+  flex: 1;
   font-size: 18px;
 }
 
@@ -58,7 +58,7 @@ a {
   margin-bottom: 4px;
 }
 
-.contacts-content p {
+.contacts-content p, .contacts-content address {
   line-height: 24px;
 }
 
@@ -255,10 +255,6 @@ a {
   justify-content: center;
 }
 
-.about-section {
-  flex: 2;
-}
-
 .logo-white-wrapper {
   display: flex;
   justify-content: center;
@@ -278,7 +274,8 @@ a {
 
 .about-section {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  flex: 2; 
   justify-content: space-between; 
   margin-left: 12px;
   padding-top: 104px;
@@ -327,9 +324,9 @@ a {
   justify-content: flex-end;
 }
 
-.social-list-item img{
+.social-list-item img {
   width: 48px;
-  height: 48px;  
+  height: 48px;
 }
 
 .social-list-item {
