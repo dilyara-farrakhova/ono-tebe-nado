@@ -25,12 +25,16 @@
   list-style: circle;
 }
 
-.navigation-item-selected {
+.navigation-item:first-child {
   padding-left: 0;
   list-style: none;
 }
 
-.navigation-item-last {
+.navigation-item-selected {
+  text-decoration: none;
+}
+
+.navigation-item:last-child {
   margin-right: 0;
 }
 
@@ -61,6 +65,8 @@
 .contacts-content {
   display: flex;
   flex-direction: column;
+  width: 240px;
+  font-style: normal;
 }
 
 .contact-content-item {
@@ -103,6 +109,7 @@
   color: white;
   font-size: 100px;
   letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 .cover-title-first-line {
@@ -118,11 +125,14 @@
 .cover-title-third-line {
   display: flex;
   justify-content: end;
-  letter-spacing: 0.6em;
 }
 
 .cover-letter-extended {
   letter-spacing: 0.6em;
+}
+
+.cover-letter-shrinked {
+  letter-spacing: 0em;
 }
 
 .cover-description {
@@ -198,7 +208,6 @@
   text-decoration: none;
 }
 
-
 .card {
   display: flex;
   flex-direction: column;
@@ -246,7 +255,6 @@
 .about {
   display: flex;
   flex-direction: row;
-  min-height: 487px;
   margin: 1px 0px 180px 0px;
   padding: 0 50px;
 }
@@ -278,12 +286,12 @@
   display: flex;
   flex-direction: column;
   flex: 2;
-  justify-content: space-between;
   margin-left: 12px;
   padding-top: 104px;
 }
 
 .about-title {
+  margin-bottom: 100px;
   font-weight: 600;
   font-size: 40px;
   text-transform: uppercase;
